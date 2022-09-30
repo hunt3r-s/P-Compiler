@@ -25,8 +25,12 @@ The following are the possible operations of the modifier operator:
 - **RED 0,2** Read input from user, store at top of stack  
 - **HLT 0,3** End program  
 
-### Compile:  
-gcc vm.c  
+### Compile:
+```bash  
+gcc vm.c
+```  
 
 ### Run:  
+```bash  
 ./"outputfilename".out "inputfile".txt  
+```  
